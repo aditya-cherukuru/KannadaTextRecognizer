@@ -100,8 +100,9 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Acknowledgments
 Tesseract OCR - An open-source OCR engine.
+
 Google Colab - For providing free cloud-based environments.
 
 
 
-Let me know if you need further adjustments!
+
