@@ -52,7 +52,7 @@ This project is a Python-based tool for searching handwritten Kannada text in sc
 
 
 
-## Example Workflow:
+## Example Workflow
 1. Upload a Kannada handwritten document (PDF format).
 2. Index the document, which extracts text from each page.
 3. Search for specific phrases in the document.
@@ -62,13 +62,13 @@ This project is a Python-based tool for searching handwritten Kannada text in sc
 
 
 ## Dependencies
-pdf2image: Converts PDF pages into images.
-opencv-python-headless: For image processing.
-numpy: For numerical computations.
-scipy: For spatial distance computations (optional).
-pytesseract: Python wrapper for Tesseract OCR.
-poppler-utils: Required for converting PDFs to images.
-tesseract-ocr-kan: Kannada language OCR for Tesseract.
+1. pdf2image: Converts PDF pages into images.
+2. opencv-python-headless: For image processing.
+3. numpy: For numerical computations.
+4. scipy: For spatial distance computations (optional).
+5. pytesseract: Python wrapper for Tesseract OCR.
+6. poppler-utils: Required for converting PDFs to images.
+7. tesseract-ocr-kan: Kannada language OCR for Tesseract.
 
 
 
