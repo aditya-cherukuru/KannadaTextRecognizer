@@ -52,7 +52,7 @@ This project is a Python-based tool for searching handwritten Kannada text in sc
 
 
 
-# Example Workflow:
+## Example Workflow:
 1. Upload a Kannada handwritten document (PDF format).
 2. Index the document, which extracts text from each page.
 3. Search for specific phrases in the document.
@@ -61,7 +61,7 @@ This project is a Python-based tool for searching handwritten Kannada text in sc
 
 
 
-# Dependencies
+## Dependencies
 pdf2image: Converts PDF pages into images.
 opencv-python-headless: For image processing.
 numpy: For numerical computations.
@@ -72,7 +72,7 @@ tesseract-ocr-kan: Kannada language OCR for Tesseract.
 
 
 
-# OCR Language
+## OCR Language
 The default OCR language is set to Kannada (kan). If you wish to work with other languages, 
 
 adjust the OCR_LANGUAGE variable accordingly:
@@ -80,25 +80,25 @@ OCR_LANGUAGE = 'kan'  # Kannada Language Code
 
 
 
-# How It Works:
+## How It Works:
 1. Preprocess Image: Convert PDF pages into grayscale and binarized images for better OCR results.
 2. Extract Text: Use Tesseract to extract handwritten Kannada text from each page.
 3. Search for Phrase: Search through the extracted text to locate the specific phrase.
 4. Highlight Phrase: Draw bounding boxes around the found phrases in the document image and display them.
 
 
-# Limitations
+## Limitations
 1. Accuracy of text extraction may vary depending on the quality of the scanned document and handwriting clarity.
 2. Only supports Kannada language for OCR in the current version.
 
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Contributing
+## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-# Acknowledgments
+## Acknowledgments
 Tesseract OCR - An open-source OCR engine.
 Google Colab - For providing free cloud-based environments.
 
